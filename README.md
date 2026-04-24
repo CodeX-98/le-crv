@@ -272,7 +272,7 @@ Improvements to clarity, benchmarks, and documentation are welcome. Production-o
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT.
 
 ## Acknowledgments
 
