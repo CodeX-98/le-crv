@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/lecrv/__init__.py
+src/lecrv.egg-info/PKG-INFO
+src/lecrv.egg-info/SOURCES.txt
+src/lecrv.egg-info/dependency_links.txt
+src/lecrv.egg-info/requires.txt
+src/lecrv.egg-info/top_level.txt
+src/lecrv/threshold/__init__.py

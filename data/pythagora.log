@@ -1,0 +1,20 @@
+2026-04-24T06:04:08.147Z INFO Is remote: false
+2026-04-24T06:04:08.149Z INFO Starting Local. Installation path: undefined
+2026-04-24T06:04:08.150Z INFO [MainProvider] Creating new MainProvider instance...
+2026-04-24T06:04:08.151Z INFO [TabsManager] Code view listener set up at initialization
+2026-04-24T06:04:08.151Z INFO Installation path exists: c:\Users\nisha\Desktop\cryptography_Project\le-crv\benchmarks
+2026-04-24T06:04:08.152Z INFO Initializing database with URL: file:C:\Users\nisha\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-04-24T06:04:08.155Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-04-24T06:04:08.156Z INFO Database initialized successfully
+2026-04-24T06:04:08.157Z INFO [Migration] Checking for database migration...
+2026-04-24T06:04:08.181Z INFO [TabsManager] First file opened, triggering split view
+2026-04-24T06:04:08.182Z INFO [MainProvider] First file opened, creating split view
+2026-04-24T06:04:10.387Z INFO [Migration] No migration needed
+2026-04-24T06:05:02.952Z INFO [TabsManager] First file opened, triggering split view
+2026-04-24T06:05:02.953Z INFO [MainProvider] First file opened, creating split view
+2026-04-24T06:05:32.925Z INFO [TabsManager] First file opened, triggering split view
+2026-04-24T06:05:32.925Z INFO [MainProvider] First file opened, creating split view
+2026-04-24T06:06:12.558Z INFO [TabsManager] First file opened, triggering split view
+2026-04-24T06:06:12.558Z INFO [MainProvider] First file opened, creating split view
+2026-04-24T06:06:44.794Z INFO [TabsManager] First file opened, triggering split view
+2026-04-24T06:06:44.795Z INFO [MainProvider] First file opened, creating split view

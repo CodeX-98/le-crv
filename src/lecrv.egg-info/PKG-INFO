@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: lecrv
+Version: 0.1.0
+Summary: Forward-Secure Threshold Lamport Signatures via Lazy-Expanded Puncturable Seeds
+Author: Nishant
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pycryptodome>=3.20
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-benchmark>=4.0; extra == "dev"
+Requires-Dist: matplotlib>=3.8; extra == "dev"
+
+# LE-CRV
+
+Forward-Secure Threshold Lamport Signatures via Lazy-Expanded Puncturable Seeds.
+
+A post-quantum threshold signature library where a trusted dealer distributes
+constant-size seeds instead of linear-size key shares, and past signing keys
+become cryptographically unrecoverable after use.
+
+## Install (development)
+
+    python -m venv .venv
+    .venv\Scripts\Activate.ps1
+    pip install -e ".[dev]"
+
+## Run tests
+
+    pytest
+
+## Run benchmarks
+
+    pytest benchmarks/ --benchmark-only

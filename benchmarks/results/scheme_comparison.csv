@@ -1,0 +1,8 @@
+Scheme,Post-quantum,Per-party storage,Aggregator storage,Dealer setup,Sig size (B),Rounds,Forward-secure,Std. verifier
+Threshold ECDSA (GG18),No,O(1),N/A (no aggregator),O(n^2) DKG,~64,8+,No,Yes (ECDSA)
+Threshold Schnorr (FROST),No,O(1),N/A,O(n),~64,2,No,Yes (Schnorr)
+Threshold BLS,No,O(1),N/A,O(n),~48,1,No,Yes (BLS)
+Threshold Dilithium (lattice),Yes (lattice),O(1),N/A,O(n),~2420,3+,No,Partial
+Naive XOR baseline (Step 4),Yes (hash),O(D) shares,0,O(D),~8200 (Lamport),2,No,Yes (Lamport/HBS)
+Kelsey-Lang-Lucks 2025,Yes (hash),O(1) PRF key,O(D) CRV (GiB-scale),O(D),~8200 (Lamport),2,No,Yes (Lamport/HBS)
+LE-CRV (this work),Yes (hash),O(log D * p) post-use,O(D) CRV,O(D),~8200 (Lamport),2,Yes (puncturing),Yes (Lamport/HBS)
